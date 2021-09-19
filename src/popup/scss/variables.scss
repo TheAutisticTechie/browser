@@ -54,6 +54,22 @@ $solarizedDarkBlue:      #268bd2;
 $solarizedDarkCyan:      #2aa198;
 $solarizedDarkGreen:     #859900;
 
+$darkPrimary: #6A99F0;
+$darkPrimary-alt: #B4CCF9;
+$darkDanger: #FF8D85;
+$darkDangerHover: #FFBfBB;
+$darkSuccess: #52E07C;
+$darkPending: #42BFDD;
+$darkWarning: #FFEB66;
+$darkInfo: #A4B0C6;
+$darkLinks: #6A99F0;
+$darkGrey1: #BAC0CE;
+$darkGrey2: #8D94A5;
+$darkBlue1: #4C525F;
+$darkBlue2: #3C424E;
+$darkDarkBlue1: #2F343D;
+$darkDarkBlue2: #1F242E;
+
 $themes: (
     light: (
         textColor: $text-color,
@@ -105,53 +121,53 @@ $themes: (
         calloutBackgroundColor: $box-background-color,
     ),
     dark: (
-        textColor: #ffffff,
-        borderColor: #111111,
-        backgroundColor: #222222,
-        backgroundColorAlt: #3d3d3d,
-        scrollbarColor: #4d4d4d,
-        scrollbarHoverColor: #5f5f5f,
-        boxBackgroundColor: #363636,
-        boxBackgroundHoverColor: #3f3f3f,
-        boxBorderColor: #2f2f2f,
-        tabBackgroundColor: #363636,
-        tabBackgroundHoverColor: #3f3f3f,
-        headerColor: #ffffff,
-        headerBackgroundColor: #363636,
-        headerBackgroundHoverColor: #3f3f3f,
-        headerBorderColor: #111111,
-        headerInputBackgroundColor: #222222,
-        headerInputBackgroundFocusColor: #1d1d1d,
-        headerInputColor: #ffffff,
-        headerInputPlaceholderColor: #707070,
-        listItemBackgroundHoverColor: #3c3c3c,
-        disabledIconColor: #cacaca,
+        textColor: $darkGrey1,
+        borderColor: $darkBlue1,
+        backgroundColor: $darkDarkBlue2,
+        backgroundColorAlt: $darkDarkBlue1,
+        scrollbarColor: $darkDarkBlue1,
+        scrollbarHoverColor: $darkBlue2,
+        boxBackgroundColor: $darkBlue1,
+        boxBackgroundHoverColor: $darkBlue2,
+        boxBorderColor: $darkBlue1,
+        tabBackgroundColor: $darkBlue2,
+        tabBackgroundHoverColor: $darkDarkBlue1,
+        headerColor: #FFFFFF,
+        headerBackgroundColor: $darkDarkBlue1,
+        headerBackgroundHoverColor: $darkBlue2,
+        headerBorderColor: $darkBlue1,
+        headerInputBackgroundColor: $darkDarkBlue2,
+        headerInputBackgroundFocusColor: $darkDarkBlue2,
+        headerInputColor: #FFFFFF,
+        headerInputPlaceholderColor: $darkGrey1,
+        listItemBackgroundHoverColor: $darkDarkBlue1,
+        disabledIconColor: $darkGrey1,
         disabledBoxOpacity: 0.5,
-        headingColor: #a3a3a3,
-        labelColor: #a3a3a3,
-        mutedColor: #a3a3a3,
-        totpStrokeColor: #cacaca,
-        boxRowButtonColor: #cacaca,
-        boxRowButtonHoverColor: #ffffff,
-        inputBorderColor: #222222,
-        inputBackgroundColor: #363636,
-        inputPlaceholderColor: #707070,
-        buttonBackgroundColor: #363636,
-        buttonBorderColor: #1f1f1f,
-        buttonColor: #e0e0e0,
-        buttonPrimaryColor: #46ace7,
-        buttonDangerColor: #ff3e24,
-        primaryColor: #52bdfb,
-        primaryAccentColor: #3ea1da,
-        dangerColor: #ff3e24,
-        successColor: $brand-success,
-        infoColor: $brand-info,
-        warningColor: $brand-warning,
+        headingColor: #FFFFFF,
+        labelColor: #FFFFFF,
+        mutedColor: $darkGrey1,
+        totpStrokeColor: $darkGrey1,
+        boxRowButtonColor: $darkGrey1,
+        boxRowButtonHoverColor: #FFFFFF,
+        inputBorderColor: $darkGrey1,
+        inputBackgroundColor: $darkDarkBlue1,
+        inputPlaceholderColor: $darkGrey2,
+        buttonBackgroundColor: $darkDarkBlue2,
+        buttonBorderColor: $darkGrey1,
+        buttonColor: $darkGrey1,
+        buttonPrimaryColor: $darkPrimary,
+        buttonDangerColor: $darkDanger,
+        primaryColor: $darkPrimary,
+        primaryAccentColor: $darkPrimary-alt,
+        dangerColor: $darkDanger,
+        successColor: $darkSuccess,
+        infoColor: $darkInfo,
+        warningColor: $darkWarning,
         logoSuffix: 'white',
-        passwordNumberColor: #52bdfb,
-        passwordSpecialColor: #ff7c70,
-        calloutBorderColor: #111111,
-        calloutBackgroundColor: #3d3d3d,
+        passwordNumberColor: #52BDFB,
+        passwordSpecialColor: #FF7C70,
+        calloutBorderColor: $darkBlue1,
+        calloutBackgroundColor: $darkDarkBlue1,
     ),
     nord: (
         textColor: $nord5,
