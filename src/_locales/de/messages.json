@@ -635,7 +635,7 @@
     "message": "Erfahre mehr über Organisationen"
   },
   "learnOrgConfirmation": {
-    "message": "Bitwarden erlaubt es dir deine Tresor Einträge mit anderen zu teilen, wenn du einen Organisations Account hast. Möchtest du bitwarden.com besuchen, um mehr zu erfahren?"
+    "message": "Bitwarden erlaubt es dir, deine Tresor-Einträge mit anderen zu teilen, wenn du eine Organisation verwendest. Möchtest du bitwarden.com besuchen, um mehr zu erfahren?"
   },
   "moveToOrganization": {
     "message": "In Organisation verschieben"
@@ -657,7 +657,7 @@
     }
   },
   "moveToOrgDesc": {
-    "message": "Wähle eine Organisation aus, in die du diesen Eintrag verschieben möchten. Das Verschieben in eine Organisation überträgt das Eigentum an diese Organisation. Du bist nicht mehr der direkte Besitzer dieses Eintrags, sobald er verschoben wurde."
+    "message": "Wähle eine Organisation aus, in die du diesen Eintrag verschieben möchtest. Das Verschieben in eine Organisation überträgt das Eigentum an diese Organisation. Du bist nicht mehr der direkte Besitzer dieses Eintrags, sobald er verschoben wurde."
   },
   "learnMore": {
     "message": "Erfahre mehr"
@@ -816,7 +816,7 @@
     "message": "Stecke deinen Sicherheitsschlüssel in den USB-Port deines Computers. Falls ein Knopf vorhanden ist, berühre diesen."
   },
   "webAuthnNewTab": {
-    "message": "Fahre mit der WebAuthn 2FA Verifizierung im neuen Tab fort."
+    "message": "Um die WebAuthn 2FA Verifizierung zu starten, klicke auf die Schaltfläche unten, um einen neuen Tab zu öffnen und folge den Anweisungen, die im neuen Tab angezeigt werden."
   },
   "webAuthnNewTabOpen": {
     "message": "Neuen Tab öffnen"
@@ -909,7 +909,7 @@
     "message": "Die URLs der Umgebung wurden gespeichert."
   },
   "enableAutoFillOnPageLoad": {
-    "message": "Aktiviere automatisches Ausfüllen beim Laden der Seite"
+    "message": "Auto-Ausfüllen beim Seitenladen aktivieren"
   },
   "enableAutoFillOnPageLoadDesc": {
     "message": "Wenn eine Zugangsmaske erkannt wird, füge automatisch die Zugangsdaten ein während die Webseite lädt."
