@@ -100,6 +100,7 @@ export function initFactory(
         }
       });
       htmlEl.classList.add("locale_" + i18nService.translationLocale);
+      htmlEl.setAttribute("lang", i18nService.translationLocale);
 
       // Workaround for slow performance on external monitors on Chrome + MacOS
       // See: https://bugs.chromium.org/p/chromium/issues/detail?id=971701#c64
