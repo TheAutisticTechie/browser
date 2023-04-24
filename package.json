@@ -73,7 +73,7 @@
     "@bitwarden/jslib-angular": "file:jslib/angular",
     "@bitwarden/jslib-common": "file:jslib/common",
     "angular2-toaster": "^11.0.1",
-    "core-js": "^3.11.0",
+    "core-js": "^3.29.1",
     "date-input-polyfill": "^2.14.0",
     "font-awesome": "4.7.0",
     "mousetrap": "^1.6.5",
